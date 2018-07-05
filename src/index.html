@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=640, initial-scale=0.5, minimal-ui">
+    <title>Личная информация</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel=”stylesheet” href="css/build.css">
+    <script src="js/main.js"></script>
+</head>
+<body class="info-page">
+    <div class="info-page__headline">
+        <div class="container">
+            <ul class="nav-menu">
+                <li class='nav-menu_item'><a href="#info">Личная информация</a></li>
+                <li class='nav-menu_item'><a href="#exp">Опыт</a></li>
+                <li class='nav-menu_item'><a href="#bio">О себе</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="info-page__header">
+        <div class="container">
+            <p><a name="info"></a></p>
+            <h1 class="header__title">Анкета</h1>
+        </div>
+    </div>
+    <div class="info-page__personal-info">
+        <div class="container_vertical">
+            <div class="personal-info__info-logo">
+                <img src="img/info-logo.png" width="47" height="47" alt="Личная информация"></a>
+            </div>
+            <div class="personal-info__info-title">
+                <h2 class="info-title">Личная информация</h2>
+            </div>
+            <div class="personal-info__form">
+                <form>
+                      <div class="form-group">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Мидзян Алесандр">
+                      </div>
+                      <div class="form-group_birth">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>Год рождения</option>  
+                          <option>1998</option>
+                          <option>1997</option>
+                          <option>1996</option>
+                          <option>1995</option>
+                          <option>1994</option>
+                          <option selected>1993</option>
+                          <option>1992</option>
+                        </select>
+                    </div>
+                      <div class="form-group">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Киев">
+                      </div>
+                      <div class="form-group">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="sane4ek66">
+                      </div>
+                      <p><a name="exp"></a></p>
+                      <div class="form-group">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="midzyann@gmail.com">
+                      </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="info-page__experience">
+        <div class="container_vertical">
+            <div class="experience__exp-logo">
+                <img src="img/exp-logo.png" width="47" height="47" alt="Личная информация"></a>
+            </div>
+            <div class="experience__exp-title">
+                <h2 class="info-title">Расскажите о своем опыте</h2>
+            </div>
+            <div class="experience__checks">
+                <div class="container">
+                    <div class="container_vertical">
+                        <div class="custom-control custom-checkbox">
+                          <input class="custom-control-input" type="checkbox" value="" id="defaultCheck1" checked>
+                          <label class="custom-control-label" for="defaultCheck1">
+                            БЭМ/OOCSS
+                          </label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                          <input class="custom-control-input" type="checkbox" value="" id="defaultCheck2" checked>
+                          <label class="custom-control-label" for="defaultCheck2">
+                            Stylus/LESS/SASS
+                          </label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                          <input class="custom-control-input" type="checkbox" value="" id="defaultCheck3">
+                          <label class="custom-control-label" for="defaultCheck3">
+                            Работаю с SVG
+                          </label>
+                        </div>
+                    </div>
+                    <div class="container_vertical">
+                        <div class="custom-control custom-checkbox">
+                          <input class="custom-control-input" type="checkbox" value="" id="defaultCheck4" checked>
+                          <label class="custom-control-label" for="defaultCheck4">
+                            Верстаю семантично
+                          </label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                          <input class="custom-control-input" type="checkbox" value="" id="defaultCheck5">
+                          <label class="custom-control-label" for="defaultCheck5">
+                            ES2015/ES2016
+                          </label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                          <input class="custom-control-input" type="checkbox" value="" id="defaultCheck6" checked>
+                          <label class="custom-control-label" for="defaultCheck6">
+                            Gulp/GRUNT
+                          </label>
+                        </div>
+                    </div>
+                    <p><a name="bio"></a></p>
+                    <div class="container_vertical">
+                        <div class="custom-control custom-checkbox">
+                          <input class="custom-control-input" type="checkbox" value="" id="defaultCheck7">
+                          <label class="custom-control-label" for="defaultCheck7">
+                            Webpack
+                          </label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                          <input class="custom-control-input" type="checkbox" value="" id="defaultCheck8" checked>
+                          <label class="custom-control-label" for="defaultCheck8">
+                            jQuery
+                          </label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                          <input class="custom-control-input" type="checkbox" value="" id="defaultCheck9" checked>
+                          <label class="custom-control-label" for="defaultCheck9">
+                             Использую Git
+                          </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="info-page__person">
+        <div class="container_vertical">
+            <div class="person__bio-logo">
+                <img src="img/bio-logo.png" width="47" height="47" alt="Личная информация"></a>
+            </div>
+            <div class="person__bio-title">
+                <h2 class="info-title">Расскажите о себе</h2>
+                <p>Напишите несколько предложений, чем привлекла наша вакансия и что вы ожидаете от работы у нас</p>
+            </div>
+            <div class="person__form">
+                  <div class="form-group">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Вакансия заинтересовала (не буду лукавить) ЗП и возможностью заниматься любимым делом (Front-end) в новом коллективе. Ожидаю сложных задач и достижения новых высот."></textarea>
+                  </div>
+            </div>
+            <div class="person__button">
+                  <div class="button">
+                    Готово
+                  </div>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
